@@ -5,7 +5,7 @@ import AppIcon from '../../assets/app_icon.svg';
 import appStyle from '../../styles/style';
 import themeStyle from '../../styles/theme.style';
 import Brand from '../components/Brand';
-import Notifee, { EventType } from '@notifee/react-native';
+import Notifee from '@notifee/react-native';
 import NotificationService from '../../services/notification/NotificationService';
 
 const SplashScreen = ({navigation}) => {
