@@ -28,10 +28,9 @@ class NotificationService {
 
     if (date === undefined) {
       date = new Date(Date.now());
-      // date.setHours(22)
-      // date.setMinutes(0)
-      // date.setSeconds(0)
-      date.setMinutes(date.getMinutes() + 1)
+      date.setHours(date.getHours() + 1)
+      date.setMinutes(0)
+      date.setSeconds(0)
     }
     console.log('Notification date:', date);
 
